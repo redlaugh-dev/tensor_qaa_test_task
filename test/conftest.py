@@ -14,5 +14,5 @@ def browser():
     'download.directory_upgrade': True,
     'safebrowsing.enabled': True
     })
-    edge = webdriver.Chrome(options=options)
-    return edge
+    chrome = webdriver.Chrome(options=options)
+    return chrome
